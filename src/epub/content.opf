@@ -39,6 +39,9 @@
 		<meta property="term" refines="#subject-2">sh85061150</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2007100260</meta>
+		<meta id="collection-1" property="belongs-to-collection">Henry IV</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">2</meta>
 		<meta property="se:subject">Drama</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">

@@ -27,8 +27,7 @@
 /* End dramatis personae */
 
 /* Play */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -67,7 +66,6 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
 i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
@@ -102,14 +100,8 @@ tr.together td{
 	vertical-align: middle;
 }
 
-tr.together td:only-child,
 tr.together td + td{
 	border-left: 1px solid;
-}
-
-.together + .together td[rowspan],
-.together + .together td[rowspan] + td{
-	padding-top: .5em;
 }
 
 [epub|type~="z3998:drama"] .together td:last-child{
@@ -136,11 +128,6 @@ tr.together td + td{
 	display: none;
 }
 
-[epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
@@ -153,30 +140,12 @@ p span.i2{
 /* End song, verse */
 
 /* Letter */
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
-	text-indent: 0;
-}
-
-[epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
-[epub|type~="z3998:salutation"],
-[epub|type~="z3998:signature"]{
+[epub|type~="z3998:sender"]{
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
-	text-align: initial;
-	text-indent: 0;
 }
 /* End letter */
