@@ -29,8 +29,8 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Henry IV, Part II</dc:title>
 		<meta property="file-as" refines="#title">Henry IV, Part II</meta>
-		<meta property="dcterms:alternate" refines="#title">Henry the 4th, Part 2</meta>
-		<meta property="dcterms:alternate" refines="#title">Henry the Fourth, Part Two</meta>
+		<meta property="dcterms:alternative" refines="#title">Henry the 4th, Part 2</meta>
+		<meta property="dcterms:alternative" refines="#title">Henry the Fourth, Part Two</meta>
 		<dc:subject id="subject-1">Henry IV, King of England, 1367-1413 -- Drama</dc:subject>
 		<dc:subject id="subject-2">Historical drama</dc:subject>
 		<dc:subject id="subject-3">Great Britain -- History -- Henry IV, 1399-1413 -- Drama</dc:subject>
