@@ -50,7 +50,7 @@
 		<meta id="collection-3" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
 		<meta property="schema:genre">Drama</meta>
-		<dc:abstract>The rebel forces plan another assault against King Henry’s forces after losing at the Battle of Shrewsbury.</dc:abstract>
+		<meta property="schema:abstract">The rebel forces plan another assault against King Henry’s forces after losing at the Battle of Shrewsbury.</meta>
 		<dc:description>
 			&lt;p&gt;As the dust settles on the battlefield at Shrewsbury, news spreads that the rebel forces fighting against King Henry IV have suffered a terrible defeat. Their leader, Harry “Hotspur” Percy, was killed by Prince Hal. The rebel troops quickly abandon the fight after seeing their leader die. Two powerful cohorts, the Earl of Worcester and Douglas, are taken as prisoners by the King’s men. The Earl of Northumberland vows to avenge his son’s death and plans to seek support from the Archbishop of York.&lt;/p&gt;
 			&lt;p&gt;Meanwhile, the Archbishop has convened his group of allies—Thomas Mowbray, Lord Hastings, and Lord Bardolph—to plan the next battle against King Henry. If they want a chance of winning, they fight on three separate fronts: one to fight King Henry’s forces, one to fight the Welsh rebels led by Owen Glendower, and one to maintain the fight in France. They decide to follow this plan regardless of whether or not Northumberland lends them his army.&lt;/p&gt;
